@@ -1,0 +1,86 @@
+{
+  "versao": "2026-11-16",
+  "fonte": "Anúncios da loja Ninicão Moda Pet na Shopee. Medidas das peças e regra de desempate: PENDENTE validação com a cliente e medição das peças físicas.",
+  "modelos": [
+    {
+      "id": "blusa-fleece",
+      "nome": "Blusa de frio fleece",
+      "shopeeUrl": "https://shopee.com.br/product/479899025/21997924332",
+      "especies": ["cao", "gato"],
+      "folgaToraxCm": 4,
+      "desempate": "maior",
+      "tamanhos": [
+        {
+          "tam": "PP",
+          "pescocoCm": 22,
+          "toraxCm": 34,
+          "comprimentoCm": 26
+        },
+        {
+          "tam": "P",
+          "pescocoCm": 26,
+          "toraxCm": 42,
+          "comprimentoCm": 32
+        },
+        {
+          "tam": "M",
+          "pescocoCm": 32,
+          "toraxCm": 52,
+          "comprimentoCm": 38
+        },
+        {
+          "tam": "G",
+          "pescocoCm": 38,
+          "toraxCm": 60,
+          "comprimentoCm": 46
+        },
+        {
+          "tam": "GG",
+          "pescocoCm": 45,
+          "toraxCm": 70,
+          "comprimentoCm": 54
+        }
+      ]
+    },
+    {
+      "id": "capa-plush",
+      "nome": "Capa de inverno plush",
+      "shopeeUrl": "https://shopee.com.br/product/479899025/23193407408",
+      "especies": ["cao", "gato"],
+      "folgaToraxCm": 3,
+      "desempate": "maior",
+      "tamanhos": [
+        {
+          "tam": "PP",
+          "pescocoCm": 25,
+          "toraxCm": 36,
+          "comprimentoCm": 22
+        },
+        {
+          "tam": "P",
+          "pescocoCm": 30,
+          "toraxCm": 45,
+          "comprimentoCm": 29
+        },
+        {
+          "tam": "M",
+          "pescocoCm": 36,
+          "toraxCm": 54,
+          "comprimentoCm": 36
+        },
+        {
+          "tam": "G",
+          "pescocoCm": 40,
+          "toraxCm": 62,
+          "comprimentoCm": 46
+        },
+        {
+          "tam": "GG",
+          "pescocoCm": 46,
+          "toraxCm": 74,
+          "comprimentoCm": 50
+        }
+      ]
+    }
+  ]
+}

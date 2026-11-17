@@ -1,0 +1,348 @@
+{
+  "versao": "2026-11-16",
+  "nota": "pesoTipicoKg só com fonte publicada (padrão de raça ou estudo); sem fonte = null. kRaca = 1.0 em todas até haver dados para calibrar. A VALIDAR com a cliente.",
+  "racas": [
+    {
+      "id": "shih-tzu",
+      "nome": "Shih Tzu",
+      "sinonimos": ["shitzu", "shih-tzu"],
+      "especie": "cao",
+      "pesoTipicoKg": 6.25,
+      "fonte": "Padrão FCI nº 208: 4,5–8 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "yorkshire",
+      "nome": "Yorkshire",
+      "sinonimos": ["yorkshire terrier", "york"],
+      "especie": "cao",
+      "pesoTipicoKg": 2.4,
+      "fonte": "Castro et al. 2011 (Arq. Bras. Med. Vet. Zootec. 63(5)): 2,42 ± 0,64 kg",
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "spitz-alemao",
+      "nome": "Spitz Alemão (Lulu)",
+      "sinonimos": ["lulu", "lulu da pomerânia", "pomeranian", "spitz"],
+      "especie": "cao",
+      "pesoTipicoKg": 2.3,
+      "fonte": "Padrão AKC (Pomeranian): 3–7 lb ≈ 1,4–3,2 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "poodle",
+      "nome": "Poodle",
+      "sinonimos": ["poodle toy", "poodle micro", "caniche"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "pinscher",
+      "nome": "Pinscher",
+      "sinonimos": ["pincher", "pinscher miniatura", "zwergpinscher"],
+      "especie": "cao",
+      "pesoTipicoKg": 5,
+      "fonte": "Padrão FCI nº 185 (Pinscher Miniatura): 4–6 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "dachshund",
+      "nome": "Dachshund (Salsicha)",
+      "sinonimos": ["salsicha", "linguicinha", "teckel", "cofap"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "vira-lata",
+      "nome": "Vira-lata",
+      "sinonimos": ["srd", "sem raça", "sem raça definida", "viralata", "mestiço", "caramelo"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false,
+      "semRaca": true
+    },
+    {
+      "id": "maltes",
+      "nome": "Maltês",
+      "sinonimos": ["maltese", "bichon maltês"],
+      "especie": "cao",
+      "pesoTipicoKg": 3.5,
+      "fonte": "Padrão FCI nº 65: 3–4 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "lhasa-apso",
+      "nome": "Lhasa Apso",
+      "sinonimos": ["lhasa"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "chihuahua",
+      "nome": "Chihuahua",
+      "sinonimos": ["chiuaua"],
+      "especie": "cao",
+      "pesoTipicoKg": 2.25,
+      "fonte": "Padrão FCI nº 218: 1,5–3 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "bulldog-frances",
+      "nome": "Bulldog Francês",
+      "sinonimos": ["buldogue francês", "frenchie"],
+      "especie": "cao",
+      "pesoTipicoKg": 11,
+      "fonte": "Padrão FCI nº 101: 8–14 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "pug",
+      "nome": "Pug",
+      "sinonimos": [],
+      "especie": "cao",
+      "pesoTipicoKg": 7.2,
+      "fonte": "Padrão FCI nº 253: 6,3–8,1 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "bulldog-ingles",
+      "nome": "Bulldog Inglês",
+      "sinonimos": ["buldogue inglês"],
+      "especie": "cao",
+      "pesoTipicoKg": 24,
+      "fonte": "Padrão FCI nº 149: machos 25 kg, fêmeas 23 kg (média)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "beagle",
+      "nome": "Beagle",
+      "sinonimos": [],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "cocker-spaniel",
+      "nome": "Cocker Spaniel",
+      "sinonimos": ["cocker", "cocker inglês"],
+      "especie": "cao",
+      "pesoTipicoKg": 13.75,
+      "fonte": "Padrão FCI nº 5 (Cocker Spaniel Inglês): 13–14,5 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "schnauzer",
+      "nome": "Schnauzer",
+      "sinonimos": ["schnauzer miniatura"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "jack-russell",
+      "nome": "Jack Russell",
+      "sinonimos": ["jack russell terrier"],
+      "especie": "cao",
+      "pesoTipicoKg": 5.5,
+      "fonte": "Padrão FCI nº 345: 5–6 kg (1 kg por 5 cm de altura, 25–30 cm)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "cavalier",
+      "nome": "Cavalier King Charles",
+      "sinonimos": ["cavalier"],
+      "especie": "cao",
+      "pesoTipicoKg": 6.7,
+      "fonte": "Padrão FCI nº 136: 5,4–8 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "border-collie",
+      "nome": "Border Collie",
+      "sinonimos": ["border"],
+      "especie": "cao",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "pit-bull",
+      "nome": "Pit Bull",
+      "sinonimos": ["pitbull", "american pit bull terrier"],
+      "especie": "cao",
+      "pesoTipicoKg": 20.4,
+      "fonte": "Padrão UKC (APBT): 30–60 lb ≈ 13,6–27,2 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "husky-siberiano",
+      "nome": "Husky Siberiano",
+      "sinonimos": ["husky"],
+      "especie": "cao",
+      "pesoTipicoKg": 21.75,
+      "fonte": "Padrão FCI nº 270: 15,5–28 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "golden-retriever",
+      "nome": "Golden Retriever",
+      "sinonimos": ["golden"],
+      "especie": "cao",
+      "pesoTipicoKg": 29.5,
+      "fonte": "Padrão AKC: 55–75 lb ≈ 25–34 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "labrador",
+      "nome": "Labrador",
+      "sinonimos": ["labrador retriever"],
+      "especie": "cao",
+      "pesoTipicoKg": 30.5,
+      "fonte": "Padrão AKC: 55–80 lb ≈ 25–36 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "pastor-alemao",
+      "nome": "Pastor Alemão",
+      "sinonimos": ["pastor", "capa preta"],
+      "especie": "cao",
+      "pesoTipicoKg": 31,
+      "fonte": "Padrão FCI nº 166: 22–40 kg (ponto médio)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "rottweiler",
+      "nome": "Rottweiler",
+      "sinonimos": ["rotweiler"],
+      "especie": "cao",
+      "pesoTipicoKg": 46,
+      "fonte": "Padrão FCI nº 147: machos ~50 kg, fêmeas ~42 kg (média)",
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "persa",
+      "nome": "Persa",
+      "sinonimos": ["persian"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "siames",
+      "nome": "Siamês",
+      "sinonimos": ["siamese"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "maine-coon",
+      "nome": "Maine Coon",
+      "sinonimos": ["mainecoon"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "angora",
+      "nome": "Angorá",
+      "sinonimos": ["angorá turco", "angora turco"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": true
+    },
+    {
+      "id": "vira-lata-gato",
+      "nome": "Vira-lata",
+      "sinonimos": ["srd", "sem raça", "sem raça definida", "viralata", "mestiço"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false,
+      "semRaca": true
+    },
+    {
+      "id": "ragdoll",
+      "nome": "Ragdoll",
+      "sinonimos": [],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "sphynx",
+      "nome": "Sphynx",
+      "sinonimos": ["sem pelo", "esfinge"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "british-shorthair",
+      "nome": "British Shorthair",
+      "sinonimos": ["british"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    },
+    {
+      "id": "bengal",
+      "nome": "Bengal",
+      "sinonimos": ["bengala"],
+      "especie": "gato",
+      "pesoTipicoKg": null,
+      "fonte": null,
+      "kRaca": 1.0,
+      "destaque": false
+    }
+  ]
+}
